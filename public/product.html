@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Chi tiết sản phẩm - TechShop Blue</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+<header class="tsb-header"><div class="container">
+  <div class="logo">TechShop <span>Blue</span></div>
+  <nav class="nav"><a href="index.html">Trang chủ</a><a href="cart.html">Giỏ hàng</a></nav>
+</div></header>
+
+<main class="container">
+  <div id="product-detail" class="product-detail"></div>
+  <h3>Đánh giá</h3>
+  <div id="reviews"></div>
+  <form id="form-review">
+    <label>Điểm (1-5) <input type="number" min="1" max="5" name="rating" required/></label>
+    <label>Nội dung <textarea name="content"></textarea></label>
+    <button>Gửi đánh giá</button>
+  </form>
+  <h3>Sản phẩm liên quan</h3>
+  <div id="related" class="grid"></div>
+</main>
+
+<script src="./assets/js/app.js"></script>
+</body>
+</html>

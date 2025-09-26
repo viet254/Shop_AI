@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>TechShop Blue</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+  <header class="tsb-header">
+    <div class="container">
+      <div class="logo">TechShop <span>Blue</span></div>
+      <nav class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="category.html?cat=1">Laptop</a>
+        <a href="category.html?cat=2">Điện thoại</a>
+        <a href="category.html?cat=3">Linh kiện</a>
+        <a href="category.html?cat=4">Phụ kiện</a>
+        <a href="cart.html" class="cart-link">Giỏ hàng <span id="cart-count">0</span></a>
+        <a href="login.html" id="nav-login">Đăng nhập</a>
+        <a href="profile.html" id="nav-profile" style="display:none;">Tài khoản</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Siêu thị máy tính & di động</h1>
+      <p>Màu xanh biển & trắng hiện đại, deal xịn mỗi ngày</p>
+      <div class="search">
+        <input id="search-input" placeholder="Tìm laptop, điện thoại, linh kiện..." />
+        <button id="btn-search">Tìm</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <h2>Sản phẩm mới</h2>
+    <div id="product-grid" class="grid"></div>
+  </main>
+
+  <!-- Chatbox AI -->
+  <div class="chatbox" id="chatbox">
+    <div class="chat-header">
+      <strong>Trợ lý TechShop AI</strong>
+      <button id="chat-close">×</button>
+    </div>
+    <div class="chat-body" id="chat-body"></div>
+    <div class="chat-input">
+      <input id="chat-text" placeholder="Hỏi gợi ý sản phẩm... (vd: laptop 20tr chơi game)"/>
+      <button id="chat-send">Gửi</button>
+    </div>
+  </div>
+  <button class="chat-fab" id="chat-fab">💬</button>
+
+  <footer class="tsb-footer">
+    <div class="container">
+      <p>© 2025 TechShop Blue. Giao diện demo cho XAMPP.</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
