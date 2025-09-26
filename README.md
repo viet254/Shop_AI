@@ -7,7 +7,7 @@ Dự án mẫu website bán hàng (Laptop, Điện thoại, Linh kiện, Phụ k
 1. Mở **XAMPP** → Start Apache + MySQL.
 2. Tạo DB và bảng:
    - Mở **phpMyAdmin** → Import file `sql/schema.sql`.
-3. Copy thư mục **techshop-blue** vào `htdocs` (ví dụ `C:/xampp/htdocs/techshop-blue`).
+3. Copy thư mục **techshop-blue** vào `htdocs` (ví dụ `C:/xampp/htdocs/Shop_AI`).
 4. Mở trình duyệt: `http://localhost/techshop-blue/public/index.html`.
 5. Đăng nhập Admin: email `admin@techshop.local`, mật khẩu `admin123` (có sẵn trong seed).
    - Đăng nhập tại `http://localhost/techshop-blue/public/login.html` → sẽ chuyển sang trang quản trị.
@@ -41,6 +41,3 @@ Dự án mẫu website bán hàng (Laptop, Điện thoại, Linh kiện, Phụ k
 - Tối ưu SEO, sitemap, bộ lọc điều kiện giống CellphoneS/Laptop88 (giá, hãng, RAM, SSD...).
 - Thêm log activity admin, dashboard thống kê.
 
----
-
-Tạo bởi ChatGPT · 2025-09-05 18:24
